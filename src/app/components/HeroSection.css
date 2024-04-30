@@ -1,0 +1,7 @@
+.HeroSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Kanit;
+}
