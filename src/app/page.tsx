@@ -1,5 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import Header from "./components/Header";
+import Menu from "./components/Menu";
+
 
 
 export default function Home() {
@@ -9,6 +11,7 @@ export default function Home() {
 
       <Header />
       <HeroSection />
+      <Menu />
     </main>
   );
 }

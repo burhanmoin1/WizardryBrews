@@ -1,0 +1,113 @@
+.MenuSection {
+    height: auto;
+    display: flex;
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+    font-family: Kanit;
+}
+
+.MenuHeading {
+    font-weight: 600;
+    font-size: 4rem;
+    margin-right: 40px;
+    -webkit-text-stroke: 2px black;
+}
+
+.espressodrink{
+    color: white;
+    text-align: center;
+    font-weight: 550;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.espressodesc{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+}
+
+.transcup {
+    margin: 10px;
+    height: 20vh;
+}
+
+.espresso {
+    height: 62vh;
+    margin-right: 800px;
+    padding: 40px;
+    width: 30vmin;
+    margin-bottom: 20px;
+    margin-top: -80px;
+    background-color: rgb(170,100,84)  ;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
+    transition: 0.3s transform ease;
+}
+
+.espressoheading {
+    font-size: 2.8rem;
+    margin-top: 0px;
+    transform: translateY(-100%);
+    background-color: white;
+    padding: 6px;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 767.98px) {
+
+    .MenuHeading {
+        font-size: 2.8rem;
+        margin-right: 0px;
+    }
+
+    .MenuSection {
+        height: auto;
+        display: flex;
+        background-color: aliceblue;
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+        font-family: Kanit;
+    }
+
+    .espresso {
+        height: 60vh;
+        margin-right: 0px;
+        padding: 40px;
+        width: 60vmin;
+        margin-top: 0px;
+        background-color: rgb(170,100,84)  ;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
+        transition: 0.3s transform ease;
+    }
+    
+    .espresso:hover {
+        transform: rotate(-1deg);
+    }
+
+    .transcup {
+        margin: 60px;
+        height: 20vh;
+        border-radius: 10px;
+    
+    }
+    
+    .espressoheading {
+        font-size: 2rem;
+        margin-top: -14px;
+        background-color: white;
+        padding: 6px;
+        border-radius: 2px;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, .4);
+    }
+
+}

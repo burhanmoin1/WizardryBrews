@@ -5,6 +5,7 @@
     background-color: rgb(170,100,84);
     padding: 0;
     margin-top: -2px;
+    
     font-weight: 800;
     cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAFRGMAAAAAAAErQAABY5QABbz/AAQ2TwAFWoUABk5zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREREREREREREREREREREREREhERERERERERERERERERESIhERERERERERERERERERIiEREREREREREREREREREiIRERERERERERERERERESIhERERERERERERERERERIiEREREREREREREREREREiIRERERERERERERERERESUhERERERERERERERERERFSEREREREREREREREREREVERERERERERERERERERERURERERERERERERERERERFREREREREREREREREREREVERERERERERERERERERERAREREREREREREREREREREBEREREREREREREREREREQERERERERERERERERERERcRERERERERERERERERERFhERERERERERERERERRBEWEREREREREREREREREUQRYRERERERERERERERQRFEFhEREREREREREREREUQRQWEREREREREREREREREUQRMUQRERERERERERERERERExREQREREREREREREREREREREREREREREREREREREURBQRERERERERERERERERREEUQREREREREREREREREUQREUQRERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERH/////////+/////H////j////x////4////8f///+P////H////z////7////9////+/////f////v////3////7////9////+////nf///5v///uX///5r////NP///+h/////////F////jP///55///////////////////w=='), auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .2);  /* Horizontal offset, vertical offset, blur, color */
@@ -17,6 +18,12 @@
     width: 12vmin;
     height: 12vh;
     border-radius: 100px;
+  }
+
+  .menuoverlaytext {
+    font-size: 1rem;
+    font-weight: 400;
+    transform: translateY(170%);
   }
 
   .menu-button {
@@ -123,6 +130,15 @@
   .menu-items > div:hover {
     color: rgb(168, 168, 177);
   }
+
+  .carticon {
+    width: 10vmin;
+    transform: translateY(50%);
+  }
+
+  .carticon:hover {
+    cursor: pointer;
+  }
   
     @media (max-width: 767.98px) {
 
@@ -139,11 +155,13 @@
       .main-header {
         padding: 1%; 
         margin-right: 0px;
+        
       }
 
       .menu-overlay {
-        width: 73%;  
-        border-radius: 10px;
+        width: 80%;  
+        border-radius: 8px;
+        right: -4px;
       }
       
       .menu-button {
@@ -160,9 +178,19 @@
       .menu-items {
           font-size: 1.8rem;
         }
+
+        .carticon {
+          width: 16vmin;
+          transform: translateY(80%);
+        }
   
         .menu-items > div {
           letter-spacing: -1px;
+        }
+
+        .menuoverlaytext {
+          font-size: .7rem;
+          transform: translateY(500%);
         }
   
   }
