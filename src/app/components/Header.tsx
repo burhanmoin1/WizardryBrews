@@ -44,9 +44,9 @@ const Header = () => {
 
     return ( 
         <motion.div className="main-header">
-            <motion.img src={wizardrybrewlogo.src} initial={{y: -10, opacity: 0}} animate={{ y: 0, opacity:1}} transition={{duration: 0.2, type: "tween", delay: .4}}
+            <motion.img src={wizardrybrewlogo.src}
                 className='WizardryBrewLogo'/> 
-            <motion.button initial={{y: -10, opacity:0}} animate={{ y:0 ,opacity: 1}} transition={{duration: 0.2, type: "tween", delay: .4}} className={`menu-button ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+            <motion.button  className={`menu-button ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
                 <motion.div className="menu-icon">
                     <span></span>
                     <span></span>
