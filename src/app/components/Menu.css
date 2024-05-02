@@ -66,7 +66,27 @@
 .transcup {
     margin: 10px;
     height: 20vh;
+    transition: 2s animation ease;
+    animation: 4s smoothSwing infinite alternate ease-in-out;
 }
+
+.transcup:hover {
+    
+    cursor: pointer;
+}
+
+@keyframes smoothSwing {
+    0% {
+        transform: rotate(0deg); /* Start from no rotation */
+    }
+    50% {
+        transform: rotate(-10deg); /* First transition is smoother */
+    }
+    100% {
+        transform: rotate(10deg); /* Second transition is smoother */
+    }
+}
+
 
 .espresso {
     height: 52vh;

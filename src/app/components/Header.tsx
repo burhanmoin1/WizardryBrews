@@ -161,7 +161,7 @@ const Header = () => {
 
     return ( 
         <motion.div className="main-header">
-            <motion.img initial={{opacity: 0}} animate={{opacity: 1}} src={wizardrybrewlogo.src}
+            <motion.img src={wizardrybrewlogo.src}
                 className='WizardryBrewLogo'/> 
             <motion.button  className={`menu-button ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
                 <motion.div className="menu-icon">

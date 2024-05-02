@@ -36,7 +36,7 @@
     letter-spacing: -1.4px;
     margin-bottom: 10px;
     text-align: center;
-    transform: translateY(-100%); 
+    animation: 1s headinganimation forwards;
     line-height: 66px;
     width: 60%;
     color: #080707;
@@ -47,7 +47,20 @@
 .HeroParagraph {
     text-align: center;
     font-size: 1.2rem;
-    transform: translateY(-600%);
+}
+
+@keyframes headinganimation {
+    from {transform: translateY(-120%);
+    opacity: 0;}
+    to {transform: translateY(-100%);
+    opacity: 1;}
+}
+
+@keyframes headinganimationmobile {
+    from {transform: translateY(10%);
+    opacity: 0;}
+    to {transform: translateY(30%);
+    opacity: 1;}
 }
 
 @media (max-width: 767.98px) {
@@ -67,7 +80,6 @@
 
     .HeroParagraph {
         text-align: center;
-        transform: translateY(-480%);
         font-size: 1rem;
     }
 
@@ -80,7 +92,7 @@
         font-family: Kanit;
         font-weight: 700;
         font-size: 2.8rem;
-        transform: translateY(24%);
+        animation: 0.6s headinganimationmobile forwards;
         letter-spacing: 0px;
         margin-bottom: 220px;
         text-align: center;
