@@ -1,15 +1,30 @@
 .OrderSection {
-    height: 90vh;
+    height: 58vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: antiquewhite;
+    margin: 40px;
+    font-family: Kanit;
 }
 
 .OrderHeading {
     font-size: 4rem;
-    font-family: Mulish;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -2px;
+}
+
+.indevelopment {
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+    padding: 40px;
+}
+
+.linkname {
+    text-decoration: none;
 }
 
 
@@ -18,4 +33,25 @@
     .OrderHeading{
         font-size: 3rem;
     }
+
+    .OrderSection {
+        height: 70vh;
+    }
+
+    .indevelopment {
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 10px;
+        margin-left: 20px;
+        margin-top: 0px;
+        padding: 0px;
+        width: 90%;
+    }
+
+    .OrderSection {
+        margin: 0px;
+    }
+    
 }

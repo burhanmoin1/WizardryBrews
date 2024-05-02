@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Menu from "./components/Menu";
 import wizardicon from '/wizardicon.png';
 import Order from "./components/Order";
+import Gallery from "./components/Gallery";
+import About from "./components/About";
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <HeroSection />
       <Menu />
       <Order/>
+      <Gallery />
+      <About />
     </main>
   );
 }
