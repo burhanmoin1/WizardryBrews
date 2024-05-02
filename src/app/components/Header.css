@@ -190,7 +190,7 @@
 
         .menuoverlaytext {
           font-size: .7rem;
-          transform: translateY(500%);
+          transform: translateY(200%);
         }
   
   }
