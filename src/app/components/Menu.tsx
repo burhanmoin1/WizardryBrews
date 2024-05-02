@@ -6,8 +6,6 @@ import {motion} from 'framer-motion';
 
 const Menu = () => {
 
-
-
 return (
     <div className='MenuSection'>
         <h1 className='MenuHeading'>Menu</h1>
