@@ -28,7 +28,7 @@
 
     .GallerySection {
       margin: 0px;
-      height: 240vh;
+      height: 250vh;
     }
 
     .GallerySet {
@@ -41,9 +41,9 @@
     
     .imagesforgallery {
         height: 40vh;
-        width: 80vmin;
-        border-radius: 20px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
+        width: 74vmin;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, .3);
     }
 
 }

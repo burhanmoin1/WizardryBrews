@@ -20,7 +20,7 @@ const About = () => {
           If youve scrolled this far down on the website, then kudos to you. I will be focusing on customer satisfaction and safety. As demand grows, I plan to expand my coffee delivery services, ensuring that every order is handled with the utmost care and precaution.
         </p>
         <p className='StoryDesc'>
-          Contactless delivery, rigorous sanitation practices, and eco-friendly packaging will be at the core of my operations. Additionally, Ill keep my website updated with the latest offerings, seasonal blends, and behind-the-scenes stories, turning it into a vibrant showcase of my work as a developer. Through continuous improvement and a commitment to exceptional coffee, Wizardry Brew Coffee aims to become a local favorite, delivering magic in every cup.
+          Contactless delivery, rigorous sanitation practices, and eco-friendly packaging will be at the core of my operations.<br></br><br></br> Additionally, Ill keep my website updated with the latest offerings, seasonal blends, and behind-the-scenes stories, turning it into a vibrant showcase of my work as a developer. Through continuous improvement and a commitment to exceptional coffee, Wizardry Brew Coffee aims to become a local favorite, delivering magic in every cup.
         </p>
       </div>
     </div>

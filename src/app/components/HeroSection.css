@@ -60,7 +60,7 @@
     .imgcheck {
         width: 63%;
         height: 34vh;
-        transform: rotate(20deg)translateY(-10%);
+        transform: rotate(20deg)translateY(0%);
         margin-top: 0px;
         margin-left: 0px;
     }
