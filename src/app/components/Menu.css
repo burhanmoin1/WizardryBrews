@@ -141,7 +141,7 @@
 
     .lattedesc {
         
-        transform: translateY(-142%);
+        transform: translateY(-188%);
     
     }    
 
@@ -171,6 +171,10 @@
         height: 20vh;
         border-radius: 10px;
     
+    }
+
+    .mochalatte {
+        transform: translateY(-300%);
     }
     
     .espressoheading {
