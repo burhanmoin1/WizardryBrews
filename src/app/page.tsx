@@ -2,6 +2,7 @@ import HeroSection from "./components/HeroSection";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import wizardicon from '/wizardicon.png';
+import Order from "./components/Order";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Menu />
+      <Order/>
     </main>
   );
 }

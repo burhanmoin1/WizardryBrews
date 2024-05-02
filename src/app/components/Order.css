@@ -1,0 +1,21 @@
+.OrderSection {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.OrderHeading {
+    font-size: 4rem;
+    font-family: Mulish;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+
+@media (max-width: 767.98px) {
+
+    .OrderHeading{
+        font-size: 3rem;
+    }
+}

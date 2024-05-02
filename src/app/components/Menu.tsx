@@ -20,8 +20,8 @@ return (
             <p className='espressodesc'>Carefully keeping foam in check for the latte lovers.</p>
             <h2 className='espressodrink'>Macchiato - Rs.550/</h2>
             <p className='espressodesc'>For the people who love sweetened espresso.</p>
-            <h2 className='espressodrink'>Mocha - Rs.550/</h2>
-            <p className='espressodesc'>Cap with melted chocolate, yumm.</p>
+            <h2 className='mochalatte'>Mocha - Rs.550/</h2>
+            <p className='lattedesc'>Cap with melted chocolate, yumm.</p>
         </motion.div>
         <motion.div className='iced-latte'>
             <h1 className='espressoheading'>Iced Latte</h1>
@@ -30,7 +30,7 @@ return (
             <h2 className='espressodrink'>Iced caramel latte - Rs.700/</h2>
             <p className='lattedesc'>Caramel and coffee 💥 something magical!</p>
             <h2 className='mochalatte'>Mocha - Rs.750/</h2>
-            <p className='lattedesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
+            <p className='espressodesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
         </motion.div>
     </div>
 );
