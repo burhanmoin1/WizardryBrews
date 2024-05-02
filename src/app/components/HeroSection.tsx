@@ -29,7 +29,7 @@ const HeroSection = () => {
   }, []);
 
   // Determine initial Y value based on the window width
-  const initialY = innerWidth <= threshold ? -160 : -130;
+  const initialY = innerWidth <= threshold ? -180 : -130;
   const animateY = innerWidth <= threshold ? -190: -150;
 
 
