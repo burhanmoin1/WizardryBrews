@@ -5,7 +5,7 @@ import wizardicon from '/wizardicon.png';
 import Order from "./components/Order";
 import Gallery from "./components/Gallery";
 import About from "./components/About";
-
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       <Order/>
       <Gallery />
       <About />
+      <Footer/>
     </main>
   );
 }

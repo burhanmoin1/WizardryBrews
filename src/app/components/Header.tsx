@@ -185,7 +185,7 @@ const Header = () => {
                         <motion.div onClick={handleOrderButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.18}}>Order</motion.div>
                         <motion.div onClick={handleGalleryButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.26}}>Gallery</motion.div>
                         <motion.div onClick={handleAboutButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.32}}>About</motion.div>
-                        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.38}} className='menuoverlaytext'>Developed By Burhan &Wizardry Brews.<br></br> Copyright © 2024 All Rights Reserved</motion.p>
+                        
                     </div>
                 </motion.div>
             )}

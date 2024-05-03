@@ -1,0 +1,42 @@
+.FooterDiv {
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    height: 8vh;
+    margin: 20px;
+    align-self: center;
+}
+
+.socialicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    height: 4vh;
+    cursor: pointer;
+}
+
+.footertext {
+    align-self: center;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Kanit;
+}
+
+@media (max-width: 767.98px) { 
+
+    .FooterDiv {
+        height: 28vh;
+    }
+
+    .footertext {
+        font-size: 1.2rem;
+    }
+
+}
