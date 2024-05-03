@@ -128,6 +128,26 @@
         margin-right: 0px;
     }
 
+    .espressodrink{
+        color: white;
+        text-align: center;
+        font-weight: 550;
+        font-size: 1rem;
+        line-height: 18px;
+        letter-spacing: 1px;
+        transform: translateY(0%);
+        margin-top: -8px;
+    }
+    
+    .espressodesc{
+        font-size: 0.9rem;
+        color: white;
+        font-weight: 300;
+        line-height: 18px;
+        transform: translateY(0%);
+        text-align: center;
+    }
+
     .MenuSection {
         height: auto;
         display: flex;
@@ -137,40 +157,32 @@
         flex-direction: column;
         align-items: center;
         font-family: Kanit;
-    }
-
-    .lattedesc {
-        
-        transform: translateY(-188%);
-    
-    }    
+    }  
 
     .espresso {
         height: 50vh;
         margin-right: 0px;
         padding: 40px;
-        width: 60vmin;
+        width: 55vmin;
         margin-top: 0px;
-        background-color: rgb(170,100,84)  ;
+        background-color: rgb(170,100,84);
         box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
     }
 
     .iced-latte {
-    background-color: rgba(167,122,81,255);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
-    height: 38vh;
-    margin-left: 0px;
-    padding: 40px;
-    width: 60vmin;
-    margin-bottom: 20px;
-    margin-top: 100px;
-}
+        background-color: rgba(167,122,81,255);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
+        height: 40vh;
+        margin-left: 0px;
+        padding: 40px;
+        width: 55vmin;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
     
     .transcup {
-        margin: 60px;
+        margin: 20px;
         height: 20vh;
-        border-radius: 10px;
-    
     }
 
     .mochalatte {

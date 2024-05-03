@@ -11,9 +11,9 @@
     height: 60vh;
     position: absolute;
     opacity: .5;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, .2);
-    transform: translateY(20%) translateX(-120%);
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .2);
+    transform: translateY(80%) translateX(-120%);
 }
 
 .MissionHeading {
@@ -23,6 +23,8 @@
     font-size: 2.6rem;
 }
 
+
+
 .StoryDesc {
     align-self: flex-start;
     margin: 60px;
@@ -31,6 +33,10 @@
 }
 
 @media (max-width: 767.98px) { 
+
+    .AboutHeading {
+        font-size: 3.4rem;
+    }
 
     .AboutSection {
         
@@ -51,7 +57,7 @@
         margin: 40px;
         transform: translateY(-20%);
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
     
     .StoryDesc {

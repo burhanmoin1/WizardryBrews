@@ -5,7 +5,7 @@ import AusPic from './Auspic.jpg';
 const About = () => {
   return (
     <div className='AboutSection'>
-      <h1 className='OrderHeading'>About</h1>
+      <h1 className='AboutHeading'>About</h1>
       <img src={AusPic.src} alt='Wizardry Brews Founder' className='FounderPic' />
       <div className='StorySection'>
         <h2 className='MissionHeading'>Story</h2>
