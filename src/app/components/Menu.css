@@ -1,5 +1,5 @@
 .MenuSection {
-    height: auto;
+    height: 104vh;
     display: flex;
     background-color: aliceblue;
     padding: 0px;
@@ -74,7 +74,7 @@
     padding: 40px;
     width: 30vmin;
     margin-bottom: 20px;
-    margin-top: -80px;
+    margin-top: -140px;
     background-color: rgb(170,100,84)  ;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
 }
