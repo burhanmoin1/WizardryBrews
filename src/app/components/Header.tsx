@@ -24,122 +24,6 @@ const Header = () => {
         };
       }, [menuOpen]);
 
-
-      const handleMenuButtonClick = () => {
-        let scrollAmount = 1000;
-        if (window.innerWidth <= 767.98) {
-          scrollAmount = 910;
-        }
-        
-        const currentScroll = window.scrollY;
-        const targetScroll = currentScroll + scrollAmount;
-        const scrollDuration = 500;
-        
-        const startTime = performance.now();
-        
-        const animateScroll = (currentTime: DOMHighResTimeStamp) => {
-          const elapsed = currentTime - startTime;
-          const progress = Math.min(elapsed / scrollDuration, 1);
-          
-          const easing = 1 - Math.pow(1 - progress, 3); // Ease-out cubic
-          const scrollPosition = currentScroll + (scrollAmount * easing);
-          
-          window.scrollTo(0, scrollPosition);
-          
-          if (progress < 1) {
-            requestAnimationFrame(animateScroll);
-          }
-        };
-      
-        requestAnimationFrame(animateScroll);
-      };
-
-      const handleOrderButtonClick = () => {
-        let scrollAmount = 1600;
-        if (window.innerWidth <= 767.98) {
-          scrollAmount = 2210;
-        }
-        
-        const currentScroll = window.scrollY;
-        const targetScroll = currentScroll + scrollAmount;
-        const scrollDuration = 500;
-        
-        const startTime = performance.now();
-        
-        const animateScroll = (currentTime: DOMHighResTimeStamp) => {
-          const elapsed = currentTime - startTime;
-          const progress = Math.min(elapsed / scrollDuration, 1);
-          
-          const easing = 1 - Math.pow(1 - progress, 3); // Ease-out cubic
-          const scrollPosition = currentScroll + (scrollAmount * easing);
-          
-          window.scrollTo(0, scrollPosition);
-          
-          if (progress < 1) {
-            requestAnimationFrame(animateScroll);
-          }
-        };
-      
-        requestAnimationFrame(animateScroll);
-      };
-
-      const handleGalleryButtonClick = () => {
-        let scrollAmount = 2600;
-        if (window.innerWidth <= 767.98) {
-          scrollAmount = 2900;
-        }
-        
-        const currentScroll = window.scrollY;
-        const targetScroll = currentScroll + scrollAmount;
-        const scrollDuration = 500;
-        
-        const startTime = performance.now();
-        
-        const animateScroll = (currentTime: DOMHighResTimeStamp) => {
-          const elapsed = currentTime - startTime;
-          const progress = Math.min(elapsed / scrollDuration, 1);
-          
-          const easing = 1 - Math.pow(1 - progress, 3); // Ease-out cubic
-          const scrollPosition = currentScroll + (scrollAmount * easing);
-          
-          window.scrollTo(0, scrollPosition);
-          
-          if (progress < 1) {
-            requestAnimationFrame(animateScroll);
-          }
-        };
-      
-        requestAnimationFrame(animateScroll);
-      };
-
-      const handleAboutButtonClick = () => {
-        let scrollAmount = 3600;
-        if (window.innerWidth <= 767.98) {
-          scrollAmount = 5000;
-        }
-        
-        const currentScroll = window.scrollY;
-        const targetScroll = currentScroll + scrollAmount;
-        const scrollDuration = 500;
-        
-        const startTime = performance.now();
-        
-        const animateScroll = (currentTime: DOMHighResTimeStamp) => {
-          const elapsed = currentTime - startTime;
-          const progress = Math.min(elapsed / scrollDuration, 1);
-          
-          const easing = 1 - Math.pow(1 - progress, 3); // Ease-out cubic
-          const scrollPosition = currentScroll + (scrollAmount * easing);
-          
-          window.scrollTo(0, scrollPosition);
-          
-          if (progress < 1) {
-            requestAnimationFrame(animateScroll);
-          }
-        };
-      
-        requestAnimationFrame(animateScroll);
-      };
       
     const navContainer = {
         visible: {
@@ -181,11 +65,14 @@ const Header = () => {
                     variants={navContainer}
                 >
                     <div className="menu-items">
-                        <motion.div onClick={handleMenuButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.1}} >Menu</motion.div>
-                        <motion.div onClick={handleOrderButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.18}}>Order</motion.div>
-                        <motion.div onClick={handleGalleryButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.26}}>Gallery</motion.div>
-                        <motion.div onClick={handleAboutButtonClick} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.32}}>About</motion.div>
-                        
+                      <a href='#menu'>
+                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.1}} >Menu</motion.div></a>
+                        <a href='#order'>
+                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.18}}>Order</motion.div></a>
+                        <a href='#gallery'>
+                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.26}}>Gallery</motion.div></a>
+                        <a href='about'>
+                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.32}}>About</motion.div></a>
                     </div>
                 </motion.div>
             )}

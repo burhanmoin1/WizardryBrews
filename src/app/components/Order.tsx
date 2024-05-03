@@ -3,6 +3,7 @@ import './Order.css';
 
 const Order = () => {
   return (
+    <section id='order'>
     <div className='OrderSection'>
       <h1 className='OrderHeading'>Order</h1>
       <h2 className='indevelopment'>
@@ -12,6 +13,7 @@ const Order = () => {
         <a href="https://www.instagram.com/burhansensei/" className='linkname' target="_blank" rel="noopener noreferrer"> @burhansensei</a>,<a className='linkname' href="https://www.instagram.com/wizardrybrews/" target="_blank" rel="noopener noreferrer"> @wizardrybrews</a> 
       </h2>
     </div>
+    </section>
   );
 };
 

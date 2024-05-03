@@ -9,6 +9,7 @@ import seventhpic from './iceddrink.jpg';
 
 const Gallery = () => {
   return (
+    <section id='gallery'>
     <div className='GallerySection'>
         <h1 className='OrderHeading'>Gallery</h1>
         <div className='GallerySet'>
@@ -20,6 +21,7 @@ const Gallery = () => {
         <img src={seventhpic.src} className='imagesforgallery' alt='Wizardry Brews Capuccino'/>
         </div>
     </div>
+    </section>
   );
 };
 

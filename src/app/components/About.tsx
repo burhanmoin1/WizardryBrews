@@ -4,6 +4,7 @@ import AusPic from './Auspic.jpg';
 
 const About = () => {
   return (
+    <section id='about'>
     <div className='AboutSection'>
       <h1 className='AboutHeading'>About</h1>
       <img src={AusPic.src} alt='Wizardry Brews Founder' className='FounderPic' />
@@ -24,6 +25,7 @@ const About = () => {
         </p>
       </div>
     </div>
+    </section>
   );
 };
 

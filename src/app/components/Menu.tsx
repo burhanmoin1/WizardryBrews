@@ -7,6 +7,7 @@ import {motion} from 'framer-motion';
 const Menu = () => {
 
 return (
+    <section id='menu'>
     <div className='MenuSection'>
         <h1 className='MenuHeading'>Menu</h1>
         <img src={transcap.src} alt='Wizardry Brew Cup' className='transcup'/>
@@ -31,6 +32,7 @@ return (
             <p className='lattedesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
         </motion.div>
     </div>
+    </section>
 );
 };
 
