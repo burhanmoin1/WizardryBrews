@@ -32,7 +32,11 @@
 @media (max-width: 767.98px) { 
 
     .FooterDiv {
-        height: 28vh;
+        height: 32vh;
+    }
+
+    .icon {
+        height: 5vh;
     }
 
     .footertext {
