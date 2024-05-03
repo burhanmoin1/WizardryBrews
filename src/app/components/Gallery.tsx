@@ -5,6 +5,7 @@ import secondpic from './AnotheCap.jpg';
 import thirdpic from './Morecaps.jpg';
 import fifthpic from './Coffeeinside.jpg';
 import sixthpic from './Coffeepacks.jpg';
+import seventhpic from './iceddrink.jpg';
 
 const Gallery = () => {
   return (
@@ -16,6 +17,7 @@ const Gallery = () => {
         <img src={thirdpic.src} className='imagesforgallery' alt='Wizardry Brews Capuccino'/>
         <img src={fifthpic.src} className='imagesforgallery' alt='Wizardry Brews Capuccino'/>
         <img src={sixthpic.src} className='imagesforgallery' alt='Wizardry Brews Capuccino'/>
+        <img src={seventhpic.src} className='imagesforgallery' alt='Wizardry Brews Capuccino'/>
         </div>
     </div>
   );
