@@ -1,5 +1,5 @@
 .MenuSection {
-    height: 94vh;
+    height: 104vh;
     display: flex;
     background-color: aliceblue;
     padding: 0px;
@@ -15,6 +15,15 @@
     -webkit-text-stroke: 2px black;
 }
 
+.lattedesc {
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    line-height: 24px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
 .espressodrink{
     color: white;
     text-align: center;
@@ -22,8 +31,7 @@
     font-size: 1.1rem;
     line-height: 18px;
     letter-spacing: 1px;
-    transform: translateY(-200%);
-
+    transform: translateY(-100%);
 }
 
 .espressodesc{
@@ -31,7 +39,7 @@
     color: white;
     font-weight: 300;
     line-height: 18px;
-    transform: translateY(-100%);
+    transform: translateY(-60%);
     text-align: center;
 }
 
@@ -61,7 +69,7 @@
 
 
 .espresso {
-    height: 48vh;
+    height: 54vh;
     margin-right: 800px;
     padding: 40px;
     width: 30vmin;
@@ -74,7 +82,7 @@
 .iced-latte {
     background-color: rgba(167,122,81,255);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
-    height: 40vh;
+    height: 50vh;
     margin-left: 800px;
     padding: 40px;
     width: 30vmin;
@@ -109,6 +117,12 @@
         letter-spacing: 1px;
         transform: translateY(0%);
         margin-top: -8px;
+    }
+
+    .lattedesc {
+        font-size: .8rem;
+        transform: translateY(-10%);
+        
     }
     
     .espressodesc{

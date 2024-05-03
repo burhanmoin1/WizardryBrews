@@ -1,5 +1,5 @@
 .OrderSection {
-    height: 58vh;
+    height: 64vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -35,7 +35,7 @@
     }
 
     .OrderSection {
-        height: 80vh;
+        height: 88vh;
     }
 
     .indevelopment {

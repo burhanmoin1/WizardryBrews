@@ -24,11 +24,11 @@ return (
         <motion.div className='iced-latte'>
             <h1 className='espressoheading'>Iced Latte</h1>
             <h2 className='espressodrink'>Iced Vanilla Latte - Rs.700/</h2>
-            <p className='espressodesc'>Classic vanilla flavour with espresso and milk.</p>
+            <p className='lattedesc'>Classic vanilla flavour with espresso and milk.</p>
             <h2 className='espressodrink'>Iced caramel latte - Rs.700/</h2>
-            <p className='espressodesc'>Caramel and coffee 💥 something magical!</p>
+            <p className='lattedesc'>Caramel and coffee 💥 something magical!</p>
             <h2 className='espressodrink'>Mocha - Rs.750/</h2>
-            <p className='espressodesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
+            <p className='lattedesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
         </motion.div>
     </div>
 );
