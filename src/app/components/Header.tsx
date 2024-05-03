@@ -64,15 +64,58 @@ const Header = () => {
                     exit="hidden"
                     variants={navContainer}
                 >
-                    <div className="menu-items">
-                      <a href='#menu'>
-                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.1}} >Menu</motion.div></a>
-                        <a href='#order'>
-                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.18}}>Order</motion.div></a>
-                        <a href='#gallery'>
-                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.26}}>Gallery</motion.div></a>
-                        <a href='about'>
-                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay: 0.32}}>About</motion.div></a>
+                    <div className="menu-items" style={{ marginTop: '80px' }}>
+                      <a
+                        href='#menu'
+                        style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
+                      >
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          whileInView={{ opacity: 1 }}
+                          transition={{ delay: 0.1 }}
+                        >
+                          Menu
+                        </motion.div>
+                      </a>
+
+                      <a
+                        href='#order'
+                        style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
+                      >
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          whileInView={{ opacity: 1 }}
+                          transition={{ delay: 0.18 }}
+                        >
+                          Order
+                        </motion.div>
+                      </a>
+
+                      <a
+                        href='#gallery'
+                        style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
+                      >
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          whileInView={{ opacity: 1 }}
+                          transition={{ delay: 0.26 }}
+                        >
+                          Gallery
+                        </motion.div>
+                      </a>
+
+                      <a
+                        href='#about'
+                        style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
+                      >
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          whileInView={{ opacity: 1 }}
+                          transition={{ delay: 0.32 }}
+                        >
+                          About
+                        </motion.div>
+                      </a>
                     </div>
                 </motion.div>
             )}
