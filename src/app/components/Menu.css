@@ -1,5 +1,5 @@
 .MenuSection {
-    height: 104vh;
+    height: auto;
     display: flex;
     background-color: aliceblue;
     padding: 0px;
@@ -69,7 +69,7 @@
 
 
 .espresso {
-    height: 54vh;
+    height: auto;
     margin-right: 800px;
     padding: 40px;
     width: 30vmin;
@@ -82,7 +82,7 @@
 .iced-latte {
     background-color: rgba(167,122,81,255);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
-    height: 50vh;
+    height: auto;
     margin-left: 800px;
     padding: 40px;
     width: 30vmin;
