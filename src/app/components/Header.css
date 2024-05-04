@@ -132,10 +132,6 @@
     position: relative;
   }
   
-  .menu-items > div:hover {
-    color: rgb(168, 168, 177);
-  }
-
   .carticon {
     width: 10vmin;
     transform: translateY(50%);

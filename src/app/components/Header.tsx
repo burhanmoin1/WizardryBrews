@@ -1,7 +1,7 @@
 "use client";
 import React , { useState, useEffect } from 'react';
 import './Header.css';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, delay } from 'framer-motion';
 import wizardrybrewlogo from './wbrew.jpg';
 import carticon from './icons8-fast-cart-100.png';
 
@@ -70,6 +70,7 @@ const Header = () => {
                         style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
                       >
                         <motion.div
+                          whileHover={{ color: 'rgba(168, 168, 177, 1)' , transition: {type: 'tween', stiffness: 4000, damping: 4}}}
                           initial={{ opacity: 0 }}
                           whileInView={{ opacity: 1 }}
                           transition={{ delay: 0.1 }}
@@ -83,6 +84,7 @@ const Header = () => {
                         style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
                       >
                         <motion.div
+                          whileHover={{ color: 'rgba(168, 168, 177, 1)' , transition: {type: 'tween', stiffness: 4000, damping: 4}}}
                           initial={{ opacity: 0 }}
                           whileInView={{ opacity: 1 }}
                           transition={{ delay: 0.18 }}
@@ -96,6 +98,7 @@ const Header = () => {
                         style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
                       >
                         <motion.div
+                          whileHover={{ color: 'rgba(168, 168, 177, 1)' , transition: {type: 'tween', stiffness: 4000, damping: 4}}}
                           initial={{ opacity: 0 }}
                           whileInView={{ opacity: 1 }}
                           transition={{ delay: 0.26 }}
@@ -109,6 +112,7 @@ const Header = () => {
                         style={{ textDecoration: 'none', color: 'black', marginBottom: '60px', display: 'block' }}
                       >
                         <motion.div
+                          whileHover={{ color: 'rgba(168, 168, 177, 1)' , transition: {type: 'tween', stiffness: 4000, damping: 4}}}
                           initial={{ opacity: 0 }}
                           whileInView={{ opacity: 1 }}
                           transition={{ delay: 0.32 }}
