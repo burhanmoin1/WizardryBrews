@@ -1,5 +1,5 @@
 .GallerySection {
-    height: 104vh;
+    height: auto;
     background-color: rgb(248, 253, 253);
     margin: 40px;
     flex-direction: column;
@@ -34,7 +34,7 @@
 
     .GallerySection {
       margin: 0px;
-      height: 284vh;
+      height: auto;
     }
 
     .GallerySet {
