@@ -11,8 +11,10 @@ return (
     <div className='MenuSection'>
         <h1 className='MenuHeading'>Menu</h1>
         <img src={transcap.src} alt='Wizardry Brew Cup' className='transcup'/>
+        <div className='espressonlatte'>
+            
         <motion.div className='espresso'>
-            <h1 className='espressoheading'>Espresso</h1>
+        <h1 className='espressoheading'>Espresso</h1>
             <h2 className='espressodrink'>Cappuccino - Rs.500/</h2>
             <p className='espressodesc'>Espresso freshly pulled at 40 bar pressure, with a thick layer of foam.</p>
             <h2 className='espressodrink'>Latte - Rs.500/</h2>
@@ -25,12 +27,13 @@ return (
         <motion.div className='iced-latte'>
             <h1 className='espressoheading'>Iced Latte</h1>
             <h2 className='espressodrink'>Iced Vanilla Latte - Rs.700/</h2>
-            <p className='lattedesc'>Classic vanilla flavour with espresso and milk.</p>
+            <p className='espressodesc'>Classic vanilla flavour with espresso and milk.</p>
             <h2 className='espressodrink'>Iced caramel latte - Rs.700/</h2>
-            <p className='lattedesc'>Caramel and coffee 💥 something magical!</p>
+            <p className='espressodesc'>Caramel and coffee 💥 something magical!</p>
             <h2 className='espressodrink'>Mocha - Rs.750/</h2>
-            <p className='lattedesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
+            <p className='espressodesc'>For the chocolate lovers ice, milk, coffee & chocolate, woahh 🤤.</p>
         </motion.div>
+        </div>
     </div>
     </section>
 );

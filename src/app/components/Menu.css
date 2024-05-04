@@ -1,46 +1,33 @@
 .MenuSection {
-    height: 104vh;
+    height: auto;
     display: flex;
     background-color: aliceblue;
     padding: 0px;
     margin: 40px;
     flex-direction: column;
     align-items: center;
-    font-family: Kanit;
+    font-family: Mulish;
 }
 
 .MenuHeading {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 4rem;
     -webkit-text-stroke: 2px black;
-}
-
-.lattedesc {
-    font-size: 1rem;
-    color: white;
-    font-weight: 300;
-    line-height: 24px;
-    transform: translateY(-50%);
-    text-align: center;
 }
 
 .espressodrink{
     color: white;
     text-align: center;
-    font-weight: 550;
-    font-size: 1.1rem;
-    line-height: 18px;
-    letter-spacing: 1px;
-    transform: translateY(-100%);
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin: 0;
 }
 
 .espressodesc{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: 300;
-    line-height: 18px;
-    transform: translateY(-60%);
-    text-align: center;
+    text-align: center; 
 }
 
 .transcup {
@@ -70,67 +57,65 @@
 
 .espresso {
     height: auto;
-    margin-right: 800px;
-    padding: 40px;
-    width: 30vmin;
-    margin-bottom: 20px;
-    margin-top: -140px;
     background-color: rgb(170,100,84)  ;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
+    display: flex;
+    width: 30vmin;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.espressonlatte{
+    display: flex;
+    gap: 240px;
+    margin-bottom: 40px;
+    margin-top: -40px;
 }
 
 .iced-latte {
+    height: fit-content;
     background-color: rgba(167,122,81,255);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
-    height: auto;
-    margin-left: 800px;
+    display: flex;
+    width: 34vmin;
     padding: 40px;
-    width: 30vmin;
-    margin-bottom: 20px;
-    margin-top: -580px;
+    flex-direction: column;
 }
 
 .espressoheading {
     font-size: 2.8rem;
-    margin-top: 0px;
-    transform: translateY(-100%);
+    margin-top: -80px;
     background-color: white;
     padding: 6px;
     border-radius: 2px;
     text-align: center;
+    font-weight: 900;
+    align-self: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .4);
 }
 
 @media (max-width: 767.98px) {
 
+    .espressonlatte{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 0px;
+    }
+
     .MenuHeading {
         font-size: 2.8rem;
         margin-right: 0px;
+        font-weight: 500;
     }
 
     .espressodrink{
-        color: white;
-        text-align: center;
-        font-weight: 550;
-        font-size: 1rem;
-        line-height: 18px;
-        letter-spacing: 1px;
-        transform: translateY(0%);
-        margin-top: -8px;
-    }
-
-    .lattedesc {
-        font-size: .8rem;
-        transform: translateY(-10%);
+        font-size: 1.4rem;
     }
     
     .espressodesc{
-        font-size: 0.9rem;
+        font-size: 1.18rem;
         color: white;
-        font-weight: 300;
-        line-height: 18px;
-        transform: translateY(0%);
-        text-align: center;
     }
 
     .MenuSection {
@@ -141,27 +126,16 @@
         margin: 0px;
         flex-direction: column;
         align-items: center;
-        font-family: Kanit;
     }  
 
     .espresso {
-        height: auto;
-        margin-right: 0px;
         padding: 40px;
         width: 55vmin;
-        margin-top: 0px;
-        background-color: rgb(170,100,84);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
     }
 
     .iced-latte {
-        background-color: rgba(167,122,81,255);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
-        height: auto;
-        margin-left: 0px;
         padding: 40px;
         width: 55vmin;
-        margin-bottom: 20px;
         margin-top: 110px;
     }
     
@@ -170,18 +144,9 @@
         height: 20vh;
     }
 
-    .mochalatte {
-        transform: translateY(-300%);
-    }
-    
     .espressoheading {
-        font-size: 2rem;
-        margin-top: -14px;
-        background-color: white;
-        padding: 6px;
-        border-radius: 2px;
-        text-align: center;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, .4);
+        font-size: 2.2rem;
+        margin-top: -64px;
     }
 
 }
