@@ -36,6 +36,17 @@
         height: 32vh;
     }
 
+    .footer-logo {
+        
+        align-self: flex-end;
+    }
+
+    .socialicons {
+        justify-content: end;
+        margin-right: 20px;
+    }
+    
+
     .icon {
         height: 5vh;
     }
