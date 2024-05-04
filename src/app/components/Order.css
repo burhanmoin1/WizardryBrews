@@ -1,5 +1,5 @@
 .OrderSection {
-    height: 64vh;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,10 +32,6 @@
 
     .OrderHeading{
         font-size: 3rem;
-    }
-
-    .OrderSection {
-        height: 88vh;
     }
 
     .indevelopment {

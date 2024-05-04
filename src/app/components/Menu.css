@@ -19,14 +19,16 @@
     color: white;
     text-align: center;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 0;
+    letter-spacing: .4px;
 }
 
 .espressodesc{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
     font-weight: 300;
+    letter-spacing: 1px;
     text-align: center; 
 }
 
@@ -56,20 +58,20 @@
 
 
 .espresso {
-    height: auto;
+    height: fit-content;
     background-color: rgb(170,100,84)  ;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
     display: flex;
-    width: 30vmin;
-    padding: 40px;
+    width: 34vmin;
+    padding: 20px;
     flex-direction: column;
 }
 
 .espressonlatte{
     display: flex;
-    gap: 240px;
+    gap: 280px;
     margin-bottom: 40px;
-    margin-top: -40px;
+    margin-top: -80px;
 }
 
 .iced-latte {
@@ -78,13 +80,13 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
     display: flex;
     width: 34vmin;
-    padding: 40px;
+    padding: 20px;
     flex-direction: column;
 }
 
 .espressoheading {
     font-size: 2.8rem;
-    margin-top: -80px;
+    margin-top: -60px;
     background-color: white;
     padding: 6px;
     border-radius: 2px;
