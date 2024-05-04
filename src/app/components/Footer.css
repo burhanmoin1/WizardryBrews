@@ -2,7 +2,7 @@
     height: 28vh;
     display: flex;
     flex-direction: column;
-    border-top: 1px solid black;
+    
 }
 
 .footer-logo {
@@ -28,7 +28,10 @@
     text-align: center;
     font-size: 1.4rem;
     font-family: Kanit;
+    border-top: 1px solid black;
 }
+
+
 
 @media (max-width: 767.98px) { 
 
