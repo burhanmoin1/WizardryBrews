@@ -65,6 +65,7 @@
     width: 34vmin;
     padding: 20px;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .espressonlatte{
@@ -80,6 +81,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .6);
     display: flex;
     width: 34vmin;
+    cursor: pointer;
     padding: 20px;
     flex-direction: column;
 }
