@@ -117,7 +117,6 @@
     color: black;
     font-size: 3.2rem;
     font-weight: 700;
-    
   }
 
   .links {
@@ -195,3 +194,513 @@
         }
   
   }
+
+  /* 125% */
+@media (min-width: 1482px) and (max-width: 1669px) {
+
+  .menu-button {
+    background: none !important;
+    background-color: transparent !important; 
+    border: none;
+    outline: none !important;
+    transform: translateX(700%);
+    z-index: 1000;
+    }
+
+    
+}
+
+  /* 150% */
+@media (min-width: 1242px) and (max-width: 1440px) {
+
+  .WizardryBrewLogo {
+    position: relative;
+    cursor: pointer;
+    right: 500px;
+    width: 12vmin;
+    height: 12vh;
+    border-radius: 100px;
+  }
+
+  .menu-button {
+    background: none !important;
+    background-color: transparent !important; 
+    border: none;
+    outline: none !important;
+    transform: translateX(800%);
+    z-index: 1000;
+    }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+
+  .menu-icon span:nth-child(1) {
+    top: 10px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(2) {
+    top: 18px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 16px;
+    width: 0%;
+    left: 48%;
+    transform-origin: left;
+  }
+  
+  .menu-icon span:nth-child(4) {
+    top: 18px;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(1) {
+    top: 6px;
+    width: 100%;
+    background: #000;
+    transform: rotate(50deg);
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(2) {
+    opacity: 0;
+    background: #000;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(3) {
+    top: 15px;
+    width: 100%;
+    left: 0%;
+    background: #000;
+    transform: rotate(-50deg) translateY(150%);
+  }
+
+  .menu-icon {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #f1f1e9;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+    z-index: 1000;
+  }
+
+}
+
+/* 175% */
+@media (min-width: 961px) and (max-width: 1242px) {
+
+  .WizardryBrewLogo {
+    position: relative;
+    cursor: pointer;
+    right: 400px;
+    width: 12vmin;
+    height: 12vh;
+    border-radius: 100px;
+  }
+
+  .menu-button {
+    background: none !important;
+    background-color: transparent !important; 
+    border: none;
+    outline: none !important;
+    transform: translateX(850%);
+    z-index: 1000;
+    }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    line-height: 10px;
+    font-weight: 700;
+  }
+
+  .menu-icon span:nth-child(1) {
+    top: 10px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(2) {
+    top: 18px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 16px;
+    width: 0%;
+    left: 48%;
+    transform-origin: left;
+  }
+  
+  .menu-icon span:nth-child(4) {
+    top: 18px;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(1) {
+    top: 8px;
+    width: 100%;
+    background: #000;
+    transform: rotate(52deg);
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(2) {
+    opacity: 0;
+    background: #000;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(3) {
+    top: 15px;
+    width: 100%;
+    left: 0%;
+    background: #000;
+    transform: rotate(-50deg) translateY(150%);
+  }
+
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #f1f1e9;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+    z-index: 1000;
+  }
+
+}
+
+/* 200% */
+@media (min-width: 769px) and (max-width: 960px) {
+  .WizardryBrewLogo {
+    position: relative;
+    cursor: pointer;
+    right: 400px;
+    width: 12vmin;
+    height: 12vh;
+    border-radius: 100px;
+  }
+
+  .menu-button {
+    background: none !important;
+    background-color: transparent !important; 
+    border: none;
+    outline: none !important;
+    transform: translateX(750%);
+    z-index: 1000;
+    }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    line-height: 10px;
+    font-weight: 700;
+  }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    line-height: 10px;
+    font-weight: 700;
+  }
+
+  .menu-icon span:nth-child(1) {
+    top: 10px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(2) {
+    top: 18px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 16px;
+    width: 0%;
+    left: 48%;
+    transform-origin: left;
+  }
+  
+  .menu-icon span:nth-child(4) {
+    top: 18px;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(1) {
+    top: 8px;
+    width: 100%;
+    background: #000;
+    transform: rotate(52deg);
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(2) {
+    opacity: 0;
+    background: #000;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(3) {
+    top: 15px;
+    width: 100%;
+    left: 0%;
+    background: #000;
+    transform: rotate(-50deg) translateY(150%);
+  }
+
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #f1f1e9;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+    z-index: 1000;
+  }
+
+}
+
+/* 250% */
+@media (min-width: 650px) and (max-width: 800px) {
+  .WizardryBrewLogo {
+    position: relative;
+    cursor: pointer;
+    right: 300px;
+    width: 12vmin;
+    height: 12vh;
+    border-radius: 100px;
+  }
+
+  .menu-button {
+    background: none !important;
+    background-color: transparent !important; 
+    border: none;
+    outline: none !important;
+    transform: translateX(650%);
+    z-index: 1000;
+    }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    line-height: 10px;
+    font-weight: 700;
+  }
+
+  .menu-icon span:nth-child(1) {
+    top: 10px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(2) {
+    top: 18px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 16px;
+    width: 0%;
+    left: 48%;
+    transform-origin: left;
+  }
+  
+  .menu-icon span:nth-child(4) {
+    top: 18px;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(1) {
+    top: 8px;
+    width: 100%;
+    background: #000;
+    transform: rotate(52deg);
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(2) {
+    opacity: 0;
+    background: #000;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(3) {
+    top: 15px;
+    width: 100%;
+    left: 0%;
+    background: #000;
+    transform: rotate(-50deg) translateY(150%);
+  }
+
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #f1f1e9;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+    z-index: 1000;
+  }
+
+}
+
+/* 300% */
+@media (min-width: 450px) and (max-width:650px) {
+  .WizardryBrewLogo {
+    position: relative;
+    cursor: pointer;
+    right: 240px;
+    width: 12vmin;
+    height: 12vh;
+    border-radius: 100px;
+  }
+
+  .menu-button {
+    background: none !important;
+    background-color: transparent !important; 
+    border: none;
+    outline: none !important;
+    transform: translateX(650%);
+    z-index: 1000;
+    }
+
+  .menu-items {
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 0px;
+    font-weight: 700;
+  }
+
+  .menu-icon span:nth-child(1) {
+    top: 10px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(2) {
+    top: 18px;
+    width: 92%;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 16px;
+    width: 0%;
+    left: 48%;
+    transform-origin: left;
+  }
+  
+  .menu-icon span:nth-child(4) {
+    top: 18px;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(1) {
+    top: 8px;
+    width: 100%;
+    background: #000;
+    transform: rotate(52deg);
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(2) {
+    opacity: 0;
+    background: #000;
+  }
+  
+  .menu-button.open .menu-icon span:nth-child(3) {
+    top: 15px;
+    width: 100%;
+    left: 0%;
+    background: #000;
+    transform: rotate(-50deg) translateY(150%);
+  }
+
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #f1f1e9;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+    z-index: 1000;
+  }
+
+  .main-header {
+    padding: 1%; 
+    margin-right: 0px;
+    
+  }
+
+  .menu-overlay {
+    position: fixed;
+    font-family: Kanit;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    color: #4d3f3e;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 800;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .2);
+  }
+}

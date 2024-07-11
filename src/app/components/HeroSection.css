@@ -41,7 +41,6 @@
     width: 60%;
     color: #080707;
     -webkit-text-stroke: 3px black;
-    
 }
 
 .HeroParagraph {
@@ -102,3 +101,205 @@
     }
 
 }
+
+
+ /* 150% */
+ @media (min-width: 1242px) and (max-width: 1440px) {
+
+    .HeroHeading {
+        z-index: 1s;
+        font-family: Mulish;
+        font-weight: 800;
+        font-size: 3.3rem;
+        letter-spacing: -1px;
+        margin-bottom: 10px;
+        text-align: center;
+        animation: 1s headinganimation forwards;
+        line-height: 60px;
+        width: 60%;
+        color: #080707;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .arrow-button{
+        font-size: 3rem;
+        color: black;
+        border: none;
+        background-color: transparent;
+        animation: 0.4s arrow-waiter ease-in forwards 0.9s;
+      }
+    
+    .HeroParagraph {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* 175% */
+@media (min-width: 961px) and (max-width: 1242px) {
+
+    .HeroHeading {
+        z-index: 1s;
+        font-family: Mulish;
+        font-weight: 800;
+        font-size: 3.2rem;
+        letter-spacing: -1px;
+        margin-bottom: 10px;
+        text-align: center;
+        animation: 1s headinganimation forwards;
+        line-height: 58px;
+        width: 60%;
+        color: #080707;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .arrow-button{
+        font-size: 3rem;
+        color: black;
+        border: none;
+        background-color: transparent;
+        animation: 0.4s arrow-waiter ease-in forwards 0.9s;
+      }
+
+    .imgcheck {
+        width: 20%;
+        height: 40vh;
+        margin-left: 700px;
+        margin-bottom: -100px;
+        transform: rotate(130deg);
+    }
+    
+    .HeroParagraph {
+        text-align: center;
+        font-size: 1.05rem;
+    }
+
+}
+
+/* 200% */
+@media (min-width: 769px) and (max-width: 960px) {
+    .HeroHeading {
+        z-index: 1s;
+        font-family: Mulish;
+        font-weight: 800;
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        text-align: center;
+        animation: 1s headinganimation forwards;
+        line-height: 58px;
+        width: 60%;
+        color: #080707;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .arrow-button{
+        font-size: 1.8rem;
+        color: black;
+        border: none;
+        background-color: transparent;
+        animation: 0.4s arrow-waiter ease-in forwards 0.9s;
+      }
+
+    .imgcheck {
+        width: 20%;
+        height: 40vh;
+        margin-left: 600px;
+        margin-bottom: -100px;
+        transform: rotate(130deg);
+    }
+    
+    .HeroParagraph {
+        text-align: center;
+        font-size: .9rem;
+    }
+}
+
+/* 250% */
+@media (min-width: 650px) and (max-width: 800px) {
+    .HeroHeading {
+        z-index: 1s;
+        font-family: Mulish;
+        font-weight: 700;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        margin-top: 200px;
+        margin-bottom: 10px;
+        text-align: center;
+        animation: 1s headinganimation forwards;
+        line-height: 40px;
+        width: 60%;
+        color: #080707;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .arrow-button{
+        font-size: 1.2rem;
+        margin-bottom: 180px;
+        color: black;
+        border: none;
+        background-color: transparent;
+        animation: 0.4s arrow-waiter ease-in forwards 0.9s;
+      }
+
+    .imgcheck {
+        width: 20%;
+        height: 40vh;
+        margin-left: 480px;
+        margin-bottom: -250px;
+        margin-top: 180px;
+        transform: rotate(130deg);
+    }
+    
+    .HeroParagraph {
+        text-align: center;
+        font-size: .7rem;
+        margin-top: 60px;
+    }
+}
+
+/* 300% */
+@media (min-width: 450px) and (max-width:650px) {
+
+    .HeroHeading {
+        z-index: 1s;
+        font-family: Mulish;
+        font-weight: 500;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        margin-top: 180px;
+        margin-bottom: 10px;
+        text-align: center;
+        animation: 1s headinganimation forwards;
+        line-height: 30px;
+        width: 60%;
+        color: #080707;
+        -webkit-text-stroke: 3px black;
+    }
+
+    .arrow-button{
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        color: black;
+        border: none;
+        background-color: transparent;
+        animation: 0.4s arrow-waiter ease-in forwards 0.9s;
+      }
+
+    .imgcheck {
+        width: 20%;
+        height: 40vh;
+        margin-left: 380px;
+        margin-bottom: -220px;
+        transform: rotate(130deg);
+    }
+    
+    .HeroParagraph {
+        text-align: center;
+        font-size: .55rem;
+        margin-top: 120px;
+    }
+
+}
+
